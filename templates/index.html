@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PersonalBrain — Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div class="chat-container">
+      <header>
+        <h1>PersonalBrain</h1>
+        <p class="subtitle">Ask questions about your PDFs</p>
+      </header>
+
+      <main id="messages" class="messages"></main>
+
+      <form id="chat-form" class="composer" onsubmit="return false;">
+        <input id="question" type="text" placeholder="Type a question..." autocomplete="off" />
+        <button id="send">Send</button>
+      </form>
+    </div>
+
+    <script src="/static/chat.js"></script>
+  </body>
+</html>

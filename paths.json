@@ -1,0 +1,13 @@
+{
+    "document_directories": [
+        {
+            "directory_path": "C:\\Users\\aryan\\Desktop\\PDF Data",
+            "file_type": "pdf",
+            "recursive": true,
+            "description": "Main PDF documents directory",
+            "tags": ["pdf-collection"],
+            "exclude_patterns": [".git", "__pycache__", "*.tmp"]
+        }
+    ],
+    "individual_documents": []
+}
